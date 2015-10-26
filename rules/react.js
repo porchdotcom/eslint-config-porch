@@ -17,7 +17,6 @@ module.exports = {
     'react/jsx-boolean-value': [        // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
         2, 'always'
     ],
-    'react/jsx-quotes': [2, 'double'],  // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-quotes.md
     'react/jsx-no-undef': 2,            // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-sort-props': 2,          // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
     'react/jsx-sort-prop-types': 2,     // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
