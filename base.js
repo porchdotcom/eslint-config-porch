@@ -22,13 +22,9 @@ module.exports = {
     'eslint-config-porch/env',
     'eslint-config-porch/rules/best-practices',
     'eslint-config-porch/rules/possible-errors',
+    'eslint-config-porch/rules/strict',
     'eslint-config-porch/rules/style',
     'eslint-config-porch/rules/variables'
   ],
-  'rules': {
-/**
- * Strict mode
- */
-    'strict': 0                         // [x] http://eslint.org/docs/rules/strict
-  }
+  'rules': {}
 };
