@@ -1,4 +1,4 @@
-{
+module.exports = {
   'plugins': [
     'react'                             // [x] https://github.com/yannickcr/eslint-plugin-react
   ],
@@ -60,4 +60,4 @@
       ]
     }]
   }
-}
+};
