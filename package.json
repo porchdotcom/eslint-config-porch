@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-porch",
+  "version": "1.0.0",
+  "description": "Porch's eslint configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porchdotcom/eslint-config-porch.git"
+  },
+  "author": "Porch Hackers <hackers@porch.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porchdotcom/eslint-config-porch/issues"
+  },
+  "homepage": "https://github.com/porchdotcom/eslint-config-porch#readme"
+}
