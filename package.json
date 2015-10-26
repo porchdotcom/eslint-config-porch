@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-porch",
+  "version": "5.0.0",
+  "description": "Porch's eslint configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'test'",
+    "lint": "echo 'lint'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porchdotcom/eslint-config-porch.git"
+  },
+  "author": "Porch Hackers <hackers@porch.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porchdotcom/eslint-config-porch/issues"
+  },
+  "homepage": "https://github.com/porchdotcom/eslint-config-porch#readme",
+  "peerDependencies": {
+    "babel-eslint": "^6.0.0",
+    "eslint": "^3.2.2",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-mocha": "^4.3.0",
+    "eslint-plugin-react": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "eslint": "^3.2.2",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-mocha": "^4.3.0",
+    "eslint-plugin-react": "^6.0.0"
+  }
+}
