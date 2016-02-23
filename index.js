@@ -1,7 +1,7 @@
 module.exports = {
     'extends': [
-        './base.js',
-        './rules/react.js'
+        'eslint-config-porch/base',
+        'eslint-config-porch/rules/react'
     ],
     rules: {}
 };

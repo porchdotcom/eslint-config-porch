@@ -19,12 +19,12 @@ module.exports = {
         'templateStrings': true
     },
     'extends': [
-        './env.js',
-        './rules/best-practices.js',
-        './rules/possible-errors.js',
-        './rules/strict.js',
-        './rules/style.js',
-        './rules/variables.js'
+        'eslint-config-porch/env',
+        'eslint-config-porch/rules/best-practices',
+        'eslint-config-porch/rules/possible-errors',
+        'eslint-config-porch/rules/strict',
+        'eslint-config-porch/rules/style',
+        'eslint-config-porch/rules/variables'
     ],
     'rules': {}
 };
