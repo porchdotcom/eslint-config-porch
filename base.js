@@ -22,6 +22,7 @@ module.exports = {
         'eslint-config-porch/env',
         'eslint-config-porch/rules/best-practices',
         'eslint-config-porch/rules/import',
+        'eslint-config-porch/rules/mocha',
         'eslint-config-porch/rules/possible-errors',
         'eslint-config-porch/rules/strict',
         'eslint-config-porch/rules/style',
