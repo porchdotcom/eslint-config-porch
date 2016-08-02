@@ -19,16 +19,16 @@
   "homepage": "https://github.com/porchdotcom/eslint-config-porch#readme",
   "peerDependencies": {
     "babel-eslint": "^6.0.0",
-    "eslint": "^2.2.0",
-    "eslint-plugin-import": "^1.8.0",
-    "eslint-plugin-mocha": "^3.0.0",
-    "eslint-plugin-react": "^4.0.0"
+    "eslint": "^3.2.2",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-mocha": "^4.3.0",
+    "eslint-plugin-react": "^6.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.0",
-    "eslint": "^2.10.2",
-    "eslint-plugin-import": "^1.8.0",
-    "eslint-plugin-mocha": "^3.0.0",
-    "eslint-plugin-react": "^4.0.0"
+    "eslint": "^3.2.2",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-mocha": "^4.3.0",
+    "eslint-plugin-react": "^6.0.0"
   }
 }
