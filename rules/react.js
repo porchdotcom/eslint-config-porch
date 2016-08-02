@@ -19,19 +19,17 @@ module.exports = {
         ],
         'react/jsx-no-undef': 2,            // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
         'react/jsx-sort-props': 2,          // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-        'react/sort-prop-types': 2,     // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
+        'react/sort-prop-types': 2,         // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
         'react/jsx-uses-react': 2,          // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
         'react/jsx-uses-vars': 2,           // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
-        'react/no-did-mount-set-state': [   // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-            2, 'allow-in-func'
-        ],
+        'react/no-did-mount-set-state': 2,  // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
         'react/no-did-update-set-state': 2, // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
         'react/no-multi-comp': 2,           // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
         'react/no-unknown-property': 2,     // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
         'react/prop-types': 2,              // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
         'react/react-in-jsx-scope': 2,      // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
         'react/self-closing-comp': 2,       // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
-        'react/wrap-multilines': 2,         // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
+        'react/jsx-wrap-multilines': 2,     // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
         'react/sort-comp': [2, {            // [x] https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
             'order': [
                 'displayName',
