@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-porch",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Porch's eslint configuration.",
   "main": "index.js",
   "scripts": {
