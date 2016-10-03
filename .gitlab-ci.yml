@@ -1,0 +1,51 @@
+stages:
+    - setup
+    - test
+    - deploy
+    - goldcatcher
+
+install:
+    image: gcr.io/porch-gcp/node-build-agent:latest
+    stage: setup
+    script:
+       - npm install
+    artifacts:
+        expire_in: 1 hr
+        paths:
+            - node_modules/
+
+lint:
+    image: gcr.io/porch-gcp/node-build-agent:latest
+    stage: test
+    script:
+        - npm run lint
+    dependencies:
+        - install
+
+test:
+    image: gcr.io/porch-gcp/node-build-agent:latest
+    stage: test
+    script:
+        - npm test
+    dependencies:
+        - install
+
+publish:
+    image: gcr.io/porch-gcp/node-build-agent:latest
+    stage: deploy
+    dependencies:
+        - install
+    only:
+        - master
+    script:
+        - publish
+
+goldcatcher:
+    image: gcr.io/porch-gcp/node-build-agent:latest
+    stage: goldcatcher
+    services:
+        - docker:dind
+    only:
+        - master
+    script:
+        - goldcatcher
