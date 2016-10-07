@@ -2,7 +2,7 @@ stages:
     - setup
     - test
     - deploy
-    - goldcatcher
+    - up-to-code
 
 install:
     image: gcr.io/porch-gcp/node-build-agent:latest
@@ -40,12 +40,12 @@ publish:
     script:
         - publish
 
-goldcatcher:
+up-to-code:
     image: gcr.io/porch-gcp/node-build-agent:latest
-    stage: goldcatcher
+    stage: up-to-code
     services:
         - docker:dind
     only:
         - master
     script:
-        - goldcatcher
+        - uptocode
