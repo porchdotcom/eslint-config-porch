@@ -6,7 +6,7 @@ stages:
 
 install:
     image: gcr.io/porch-gcp/node-build-agent:latest
-    stage: setup
+    stage: install
     script:
        - npm install
     artifacts:
