@@ -31,7 +31,7 @@ test:
         - install
 
 publish:
-    image: gcr.io/porch-gcp/node-build-agent:latest
+    image: gcr.io/porch-gcp/node-build-agent:6
     stage: publish
     dependencies:
         - install
