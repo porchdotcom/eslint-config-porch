@@ -1,7 +1,7 @@
 stages:
-    - setup
+    - install
     - test
-    - deploy
+    - publish
     - up-to-code
 
 install:
@@ -32,7 +32,7 @@ test:
 
 publish:
     image: gcr.io/porch-gcp/node-build-agent:latest
-    stage: deploy
+    stage: publish
     dependencies:
         - install
     only:
