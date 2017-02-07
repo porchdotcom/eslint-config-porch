@@ -1,3 +1,9 @@
+variables:
+    BABEL_DISABLE_CACHE: "1"
+
+.image: &node-build-agent-image
+    image: gcr.io/porch-gcp/node-build-agent:6
+
 stages:
     - install
     - test
@@ -5,33 +11,33 @@ stages:
     - up-to-code
 
 install:
-    image: gcr.io/porch-gcp/node-build-agent:latest
+    <<: *node-build-agent-image
     stage: install
     script:
-       - npm install
+       - yarn --no-lockfile
     artifacts:
         expire_in: 1 hr
         paths:
             - node_modules/
 
 lint:
-    image: gcr.io/porch-gcp/node-build-agent:latest
+    <<: *node-build-agent-image
     stage: test
     script:
-        - npm run lint
+        - yarn lint
     dependencies:
         - install
 
 test:
-    image: gcr.io/porch-gcp/node-build-agent:latest
+    <<: *node-build-agent-image
     stage: test
     script:
-        - npm test
+        - yarn test
     dependencies:
         - install
 
 publish:
-    image: gcr.io/porch-gcp/node-build-agent:6
+    <<: *node-build-agent-image
     stage: publish
     dependencies:
         - install
@@ -41,7 +47,7 @@ publish:
         - publish
 
 up-to-code:
-    image: gcr.io/porch-gcp/node-build-agent:latest
+    <<: *node-build-agent-image
     stage: up-to-code
     services:
         - docker:dind
