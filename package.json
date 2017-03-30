@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/porchdotcom/eslint-config-porch#readme",
   "peerDependencies": {
-    "babel-eslint": "^7.0.0",
+    "babel-eslint": "^7.0.0"
+  },
+  "dependencies": {
     "eslint": "^3.7.1",
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-mocha": "^4.6.0",
