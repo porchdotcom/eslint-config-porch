@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frontend/eslint-config-porch.git"
+    "url": "git+https://gitlab.porch.com/frontend/eslint-config-porch.git"
   },
   "author": "Porch Hackers <hackers@porch.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/frontend/eslint-config-porch/issues"
+    "url": "https://gitlab.porch.com/frontend/eslint-config-porch/issues"
   },
-  "homepage": "https://github.com/frontend/eslint-config-porch#readme",
+  "homepage": "https://gitlab.porch.com/frontend/eslint-config-porch#readme",
   "peerDependencies": {
     "eslint": "^3.7.1"
   },
