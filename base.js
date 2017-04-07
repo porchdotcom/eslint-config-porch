@@ -19,14 +19,14 @@ module.exports = {
         'templateStrings': true
     },
     'extends': [
-        'eslint-config-porch/env',
-        'eslint-config-porch/rules/best-practices',
-        'eslint-config-porch/rules/import',
-        'eslint-config-porch/rules/mocha',
-        'eslint-config-porch/rules/possible-errors',
-        'eslint-config-porch/rules/strict',
-        'eslint-config-porch/rules/style',
-        'eslint-config-porch/rules/variables'
+        '@porch/eslint-config-porch/env',
+        '@porch/eslint-config-porch/rules/best-practices',
+        '@porch/eslint-config-porch/rules/import',
+        '@porch/eslint-config-porch/rules/mocha',
+        '@porch/eslint-config-porch/rules/possible-errors',
+        '@porch/eslint-config-porch/rules/strict',
+        '@porch/eslint-config-porch/rules/style',
+        '@porch/eslint-config-porch/rules/variables'
     ],
     'rules': {}
 };
