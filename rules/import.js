@@ -13,7 +13,7 @@ module.exports = {
         'import/imports-first': 2,
         'import/named': 2,
         'import/no-extraneous-dependencies': 2,
-        'import/no-unresolved': 2
+        'import/no-unresolved': 2,
         "import/no-commonjs": 2
     }
 };
