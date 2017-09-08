@@ -1,9 +1,9 @@
-# @porchdotcom/eslint-config-porch
+# @porch/eslint-config-porch
 
 ## `.eslintrc`
 
 ```js
 {
-    "extends": "@porchdotcom/porch"
+    "extends": "@porch/porch"
 }
 ```
