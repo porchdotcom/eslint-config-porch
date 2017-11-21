@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/porchdotcom/eslint-config-porch#readme",
   "dependencies": {
-    "babel-eslint": "^7.0.0",
-    "eslint": "^3.7.1",
-    "eslint-plugin-import": "^2.0.0",
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-mocha": "^4.6.0",
-    "eslint-plugin-react": "^6.3.0"
+    "eslint-plugin-react": "^7.5.1"
   }
 }
