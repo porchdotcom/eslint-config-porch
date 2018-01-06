@@ -4,7 +4,8 @@
     "extends": [
         "./import.json",
         "./mocha.json",
-        "./react.json"
+        "./react.json",
+        "./prettier.json"
     ],
     "env": {
         "browser": true,
