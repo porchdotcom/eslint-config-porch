@@ -1,26 +1,30 @@
 {
-  "name": "@porch/eslint-config-porch",
-  "version": "9.1.3",
-  "description": "Porch's eslint configuration.",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/porchdotcom/eslint-config-porch.git"
-  },
-  "author": "Porch <npm-maintainers@porch.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/porchdotcom/eslint-config-porch/issues"
-  },
-  "homepage": "https://github.com/porchdotcom/eslint-config-porch#readme",
-  "dependencies": {
-    "babel-eslint": "^8.0.2",
-    "eslint": "^4.11.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-mocha": "^4.6.0",
-    "eslint-plugin-react": "^7.5.1"
-  }
+    "name": "@porch/eslint-config-porch",
+    "version": "9.1.5",
+    "description": "Porch's eslint configuration.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "pretty-eslint": "npm run lint -- --fix . && git add . && git status"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/porchdotcom/eslint-config-porch.git"
+    },
+    "author": "Porch <npm-maintainers@porch.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/porchdotcom/eslint-config-porch/issues"
+    },
+    "homepage": "https://github.com/porchdotcom/eslint-config-porch#readme",
+    "dependencies": {
+        "babel-eslint": "^8.0.2",
+        "eslint": "^4.11.0",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-mocha": "^4.6.0",
+        "eslint-plugin-prettier": "^2.4.0",
+        "eslint-plugin-react": "^7.5.1",
+        "prettier": "^1.9.2"
+    }
 }
