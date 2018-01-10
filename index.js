@@ -1,4 +1,4 @@
 module.exports = {
-    extends: [ './rules/base.json' ],
+    extends: ['./rules/base.json'],
     rules: {}
 };
