@@ -4,6 +4,7 @@
         "import"
     ],
     "settings": {
+        "import/extensions": [".js", ".jsx"],
         "import/resolve": {
             "extensions": [ ".js", ".jsx", ".json" ]
         }
