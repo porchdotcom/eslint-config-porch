@@ -4,12 +4,22 @@
     "extends": [
         "./import.json",
         "./mocha.json",
-        "./react.json"
+        "./react.json",
+        "./better-mutation.json"
     ],
     "env": {
         "browser": true,
         "node": true,
-        "mocha": true
+        "mocha": true,
+        "jest": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
     },
     "rules": {
         "arrow-body-style": [ 2, "as-needed" ],
@@ -111,6 +121,10 @@
         "use-isnan": 2,
         "vars-on-top": 0, //     TODO: This change is coming.
         "wrap-iife": [ 2, "any" ],
-        "yoda": 2
+        "yoda": 2,
+        "no-var": 2,
+        "prefer-const": 2,
+        "newline-before-return": 2,
+        "prefer-template": 2
     }
 }
