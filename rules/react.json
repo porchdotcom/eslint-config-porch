@@ -3,8 +3,7 @@
     "plugins": ["react"],
     "extends": ["plugin:react/recommended"],
     "parserOptions": {
-        "jsx": true,
-        "version": "15.0"
+        "jsx": true
     },
     "settings": {
         "react": {
